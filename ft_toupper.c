@@ -1,29 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zzaoui <zzaoui@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/17 18:27:40 by zzaoui            #+#    #+#             */
-/*   Updated: 2024/10/17 23:36:22 by zzaoui           ###   ########.fr       */
+/*   Created: 2024/10/17 23:36:35 by zzaoui            #+#    #+#             */
+/*   Updated: 2024/10/17 23:39:18 by zzaoui           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stddef.h>
-
-int		ft_isalpha(int c);
-int		ft_isdigit(int c);
-int		ft_isalnum(int c);
-int		ft_isascii(int c);
-int		ft_isprint(int c);
-
-int		ft_toupper(int c);
-int		ft_tolower(int c);
-
-size_t	ft_strlen(const char *str);
-
-#endif /* LIBFT_H */
+/**
+ * ft_toupper - Returns uppercase equivalent of c
+ * @c: The character to handle
+ * Return: The uppercase of c otherwise c.
+ */
+int	ft_toupper(int c)
+{
+	if (97 <= c && c <= 122)
+		return (c - 32);
+	return (c);
+}
