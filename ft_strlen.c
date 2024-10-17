@@ -6,14 +6,14 @@
 /*   By: zzaoui <zzaoui@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 18:23:54 by zzaoui            #+#    #+#             */
-/*   Updated: 2024/10/17 18:31:53 by zzaoui           ###   ########.fr       */
+/*   Updated: 2024/10/17 21:58:31 by zzaoui           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * ft_strlen: calcuate the length of a string
+ * ft_strlen - calcuate the length of a string
  * @str: the string
  * Return: The length of str
  */
