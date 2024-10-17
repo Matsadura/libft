@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zzaoui <zzaoui@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/17 18:27:40 by zzaoui            #+#    #+#             */
-/*   Updated: 2024/10/17 22:05:35 by zzaoui           ###   ########.fr       */
+/*   Created: 2024/10/17 22:05:59 by zzaoui            #+#    #+#             */
+/*   Updated: 2024/10/17 22:15:40 by zzaoui           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stddef.h>
-
-int		ft_isalpha(int c);
-int		ft_isdigit(int c);
-int		ft_isalnum(int c);
-int		ft_isascii(int c);
-int		ft_isprint(int c);
-size_t	ft_strlen(const char *str);
-
-#endif /* LIBFT_H */
+/**
+ * ft_isascii - Checks whether c is 7-bit unsigned char value
+ *	that fits into the ASCII character set
+ * @c: The element to check to check
+ */
+int	ft_isascii(int c)
+{
+	if (0 <= c && c <= 255)
+		return (1);
+	return (0);
+}
