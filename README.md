@@ -16,7 +16,7 @@ The aim of this project is to code a C library regrouping usual functions.
 - [ ] ft_memcmp: Compare memory areas
 
 #### String functions
-- [ ] ft_strlen: Calculate the length of a string
+- [x] ft_strlen: Calculate the length of a string
 - [ ] ft_strlcpy: Size-bounded string copying
 - [ ] ft_strlcat: Size-bounded string concatenation
 - [ ] ft_strchr: Locate character in string (first occurrence)
