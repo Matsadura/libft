@@ -20,7 +20,7 @@ The aim of this project is to code a C library regrouping usual functions.
 - [ ] ft_strlcpy: Size-bounded string copying
 - [ ] ft_strlcat: Size-bounded string concatenation
 - [x] ft_strchr: Locate character in string (first occurrence)
-- [ ] ft_strrchr: Locate character in string (last occurrence)
+- [x] ft_strrchr: Locate character in string (last occurrence)
 - [ ] ft_strnstr: Locate a substring in a string (size-bounded)
 - [x] ft_strncmp: Compare two strings (size-bounded)
 
@@ -36,7 +36,7 @@ The aim of this project is to code a C library regrouping usual functions.
 
 #### Functions using malloc:
 - [ ] ft_calloc: Allocate and zero-initialize array
-- [ ] ft_strdup: Create a duplicate of the string
+- [x] ft_strdup: Create a duplicate of the string
 
 ### Part 2 - Additional functions
 
