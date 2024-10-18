@@ -19,10 +19,10 @@ The aim of this project is to code a C library regrouping usual functions.
 - [x] ft_strlen: Calculate the length of a string
 - [ ] ft_strlcpy: Size-bounded string copying
 - [ ] ft_strlcat: Size-bounded string concatenation
-- [ ] ft_strchr: Locate character in string (first occurrence)
+- [x] ft_strchr: Locate character in string (first occurrence)
 - [ ] ft_strrchr: Locate character in string (last occurrence)
 - [ ] ft_strnstr: Locate a substring in a string (size-bounded)
-- [ ] ft_strncmp: Compare two strings (size-bounded)
+- [x] ft_strncmp: Compare two strings (size-bounded)
 
 #### Type functions
 - [ ] ft_atoi: Convert a string to an integer
