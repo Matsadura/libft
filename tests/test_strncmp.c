@@ -32,6 +32,7 @@ int main() {
     run_test("hello123", "hello124", 8);   // Numbers in strings
     run_test("hello3", "hello124", 8);   // Numbers in strings
     run_test("hello", "hello124", 8);   // Numbers in strings
+    run_test("hello", "hello124", 0);   // Numbers in strings
 
     return 0;
 }

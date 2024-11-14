@@ -83,6 +83,9 @@ struct test_struct {
 
 int main() {
     // Test 1: Basic string copy
+    const char *str = NULL;
+    run_test(str, strlen(str) + 1, "NULL str");
+
     const char *str = "Hello, World!";
     run_test(str, strlen(str) + 1, "String copy test");
 
